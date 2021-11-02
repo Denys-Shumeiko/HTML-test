@@ -1,0 +1,36 @@
+*,html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.wrap-top {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-left: 3px;
+}
+.blue {
+    width: 15%;
+    background: blue;
+}
+.orange {
+    width: 150%;
+    background: orange;
+}
+.red {
+    width: 100%;
+    height: 150px;
+    background: red;
+    margin-left: 5px;
+}
+.wrap-bot {
+    width: 1140px;
+    height: 100px;
+    display: flex;
+}
+.orange{
+    width: 20%;
+    height: 100px;
+    margin: 0 5px;
+}
