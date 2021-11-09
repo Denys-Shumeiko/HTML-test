@@ -93,8 +93,7 @@
     height: 380px;
     background: url(../img/foto1.png);
     position: relative;
-    top: 88px;
-    
+    top: 88px; 
 }
 .section1-left-input {
     width: 321px;
@@ -509,8 +508,10 @@
 
 /* 600  */
 @media screen and (max-width: 335px) {
-    header {
+    /* header  */
+    .posit {
         padding: 10px;
+        width: 380%;
     }
     .header-menu ul{
         display: none;
@@ -526,9 +527,46 @@
     .header-action-bth span{
         display: none;
     }
-    /* .section1 {
-        display: flex;
+    /* section 1  */
+    .section1 {
+        width: 380%;
         flex-direction: column-reverse;
-    } */
-
+        align-items: center;
+        margin: 0;
+    }
+    .section1-left{
+        width: 15%;
+    }
+    .section1-foto {
+        width: 290px;
+        height: 198px;
+        background-size: cover;
+    }
+    .section1-left h4{
+        top: -150px;
+    }
+    .section1-left h1{
+        top: -100px;
+        width: 290px;
+        height: 76px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .section1-left-input {
+        width: 166px;
+    }
+    .section1-left-action-bth {
+        left: 170px;
+        width: 124px;
+    }
+    .section1 p {
+        top: 70px;
+        width: 290px;
+    }
+    /* section 2  */
+    .section2{
+        margin-top: 350px;
+        width: 380%;
+        height: 288px;
+    }
 }
