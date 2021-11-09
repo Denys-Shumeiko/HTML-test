@@ -535,7 +535,8 @@
         margin: 0;
     }
     .section1-left{
-        width: 15%;
+        width: 100%;
+        margin-left: 82%;
     }
     .section1-foto {
         width: 300px;
@@ -568,7 +569,7 @@
         margin-top: 150px;
         width: 380%;
         height: 288px;
-        margin-left: 40px;
+        margin-left: 22px;
     }
     .section2 h2 {
         width: 280px;
@@ -597,6 +598,7 @@
         width: 300px;
         height: 198px;
         background-size: cover;
+        left: 153%;
     }
     .section-3-container {
         width: 320px;
@@ -748,7 +750,6 @@
         margin: 0 180px 20px 0;
     }
     .right-left{
-        /* display: block; */
         margin-left: -20px;
     }
 }
