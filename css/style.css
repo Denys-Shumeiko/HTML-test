@@ -469,3 +469,16 @@
 .right-left {
     padding: 0 50px;
 }
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+    .section1 {
+        margin: 0 0 0 50px;
+    }
+    .section2 {
+        margin-left: 0px;
+    }
+    .section3{
+        margin: 50px 0 0 50px;
+    }
+}
