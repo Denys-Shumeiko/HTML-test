@@ -14,6 +14,12 @@
     width: 1300px;
     margin: 0 0px 0 30px;
 }
+.header-menu-burger {
+    display: none;
+    width: 32px;
+    height: 32px;
+    background: url(../img/Burger.png) no-repeat center;
+}
 .header-logo{
     text-decoration: none;
     color: #000;
@@ -499,4 +505,30 @@
     .copy-left {
         margin: 0 0 20px 85px;
     }
+}
+
+/* 600  */
+@media screen and (max-width: 335px) {
+    header {
+        padding: 10px;
+    }
+    .header-menu ul{
+        display: none;
+    }
+    .header-menu-burger {
+        display: block;
+    }
+    .header-action-bth {
+        width: 32px;
+        height: 32px;
+        background: url(../img/Favorite.png) no-repeat center; 
+    }
+    .header-action-bth span{
+        display: none;
+    }
+    /* .section1 {
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+
 }
